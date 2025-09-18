@@ -16,7 +16,7 @@ import (
 	"github.com/vito/bass/pkg/testctx"
 )
 
-const Golang = "golang:1.23"
+const Golang = "golang:1.25"
 
 func New() *BassSdk {
 	return &BassSdk{
